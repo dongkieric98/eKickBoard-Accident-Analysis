@@ -115,15 +115,42 @@ __2. 연령대별 킥보드 사고 건수 데이터 (2017년 ~ 2022년)__
 
 #### [컬럼값 통일하기]
 - 동일한 내용을 표현하지만 Column명이 다른 것들을 통일하기
-<img width="528" alt="image" src="https://github.com/user-attachments/assets/1c349cc5-c1f0-4343-a199-63632a65466e">
+```python
+# 불명, 기타, 기타/불명 모두 기타로 통일하기
+accident['가해자차종'] = accident['가해자차종'].replace({'불명':'기타', '기타/불명':'기타'})
+
+# 개인형이동장치(PM)을 개인형이동수단(PM)로 통일하기
+accident['가해자차종'] = accident['가해자차종'].replace({'개인형이동장치(PM)':'개인형이동수단(PM)'})
+
+# 인덱스 재설정하기
+accident = accident.reset_index(drop=True)
+```
+
 
 #### [연/월 컬럼 생성]
 - 연/월을 기준으로 사고건수를 파악하고자 해당 컬럼을 생성
-<img width="267" alt="image" src="https://github.com/user-attachments/assets/a066a8d1-b1d9-4772-9d3a-a845843061c5">
+```python
+# 연 + 월로 연월 컬럼 생성하기
+accident['연월'] = pd.to_datetime(accident['연도'].astype(str) + '-' + accident['발생월'].astype(str), format='%Y-%m')
+```
 
 #### [계절 변수 추가하기]
 - 계절에 따른 사고건수를 파악하고자 계절 변수를 생성
-<img width="305" alt="image" src="https://github.com/user-attachments/assets/9dae0b8e-59ac-41e9-a1cd-861b44c95e62">
+```python
+# 계절을 판별하는 함수 정의
+def get_season(month):
+    if month in [3, 4, 5]:
+        return '봄'
+    elif month in [6, 7, 8]:
+        return '여름'
+    elif month in [9, 10, 11]:
+        return '가을'
+    else:
+        return '겨울'
+
+# '월' 열을 기반으로 계절 변수 추가
+accident['계절'] = accident['발생월'].apply(get_season)
+```
 
 
 <br/></br>
