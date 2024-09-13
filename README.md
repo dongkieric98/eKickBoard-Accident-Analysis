@@ -158,7 +158,7 @@ accident['계절'] = accident['발생월'].apply(get_season)
 
 
 ## 7. 데이터 분석 방법론
-
+- 
 
 
 <br/></br>
