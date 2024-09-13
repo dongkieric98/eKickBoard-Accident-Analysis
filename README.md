@@ -158,7 +158,7 @@ accident['계절'] = accident['발생월'].apply(get_season)
 
 
 ## 7. 데이터 분석 방법론
-- 
+![image](https://github.com/user-attachments/assets/d630a8c5-98ad-4872-b6c2-5cc2686ec356)
 
 
 <br/></br>
@@ -167,6 +167,8 @@ accident['계절'] = accident['발생월'].apply(get_season)
 
 ## 8. 결과 및 시각화
 
+#### [연구질문1 결과 : 전동 킥보드 사고는 다른 교통수단에 비해 얼마나 빈번하게 발생하는가?] 
+- 
 
 
 <br/></br>
