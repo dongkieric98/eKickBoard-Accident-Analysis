@@ -181,17 +181,11 @@ accident['계절'] = accident['발생월'].apply(get_season)
 ### [Case 1. 차종별 사고 유형별 건수 분석]
 
 #### [1-1. 차종별 사고 유형별 건수 분석 (승용차 포함)]
-- 모든 그래프에서 승용차 관련 수치가 압도적으로 높은데, 이는 승용차가 전체 교통량에서 가장 큰 비중을 차지하기 때문으로 추정한다.
-- 이륜차와 화물차도 사고, 부상, 사망의 수치가 높게 나타나 이들 교통수단이 위험성이 높을 수 있음을 시사한다.
-- 개인형 이동수단(PM)의 경우 다른 차종에 비해 상대적으로 낮은 수치로 나타나지만, 이는 이용자의 증가와 함께 수치가 상승할 가능성을 암시한다.
 <img width="738" alt="image" src="https://github.com/user-attachments/assets/7d79aea6-6133-46d0-bf35-7857914de0f9">
 
 <br/></br>
 
 #### [1-2. 차종별 사고유형별 비율]
-- 대부분의 차종에서 경상자수의 비율이 가장 높게 나타난다. 특히, 승용차, 승합차, 특수차, 화물차 등은 경상사고가 압도적인 비중을 차지한다.
-- 농기계, 사륜오토바이(ATV) 등은 다른 차종에 비해 사망사고의 비율이 상대적으로 높은 편이며, 이는 사고 시 치명적인 결과를 초래할 가능성이 있다는 것을 시사한다.
-- 개인형이동수단(PM)과 자전거는 경상과 중상 사고가 주요하며, 사망사고는 거의 없는 것으로 나타났습니다. 이는 이들 이동수단의 사고가 비교적 덜 치명적일 수 있음을 의미한다.
 <img width="740" alt="image" src="https://github.com/user-attachments/assets/8acc1e84-4dee-4a68-a8ab-331231db5480">
 
 
@@ -200,8 +194,6 @@ accident['계절'] = accident['발생월'].apply(get_season)
 
 
 ### [Case 2. 연도별 사고량 분석]
-- 사고건수, 사망자수, 중상자수의 경우 건수가 줄어드는 추세를 보인다.
-- 경상자수와 부상신고자수는 증가와 감소를 반복하는 추세를 보인다.
 <img width="740" alt="image" src="https://github.com/user-attachments/assets/5f524b9f-5c68-4afa-88ad-c75ec71b416c">
 
 
@@ -210,8 +202,6 @@ accident['계절'] = accident['발생월'].apply(get_season)
 
 
 ### [Case 3. 월별 사고량 분석]
-- 대부분의 사고에서 12,1,2월에 낮은 발생을 보이고 5월과 10월에 높은 발생을 보인다
-- 사망자수의 경우 10월에 가장 높게 나온다.
 <img width="738" alt="image" src="https://github.com/user-attachments/assets/d26c6a9f-a4a7-4406-ab50-1835eda51e13">
 
 
@@ -220,8 +210,6 @@ accident['계절'] = accident['발생월'].apply(get_season)
 
 
 ### [Case 4. 연월별 사고량 분석]
-- 전반적으로, 모든 유형의 사고는 연월별로 꾸준한 추세를 보이고 있지만, 일부 연월에서는 소폭의 변동이 나타난다.
-- 이러한 변동이 계절적 요인과 관련 있을것이라 판단하여 계절적 요소를 추가하여 추세를 파악하기로 결정
 <img width="857" alt="image" src="https://github.com/user-attachments/assets/d1eae2ae-5201-45a9-a347-8a428f47553e">
 
 
@@ -230,8 +218,6 @@ accident['계절'] = accident['발생월'].apply(get_season)
 
 
 ### [Case 5. 계절별 사고량 분석]
-- 대부분의 사고유형에 있어 겨울에 가장 낮은 건수를 보이고 점점 증가하다 가을에 가장 높은 건수를 보인다.
-- 부상신고자수의 경우 겨울에 가장 낮은 건수를 보이고 가을과 여름에 가장 높은 건수를 보인다.
 <img width="825" alt="image" src="https://github.com/user-attachments/assets/0f49d545-d7ed-4379-811b-047bcff88939">
 
 
@@ -242,42 +228,28 @@ accident['계절'] = accident['발생월'].apply(get_season)
 ### [Case 6. 연도별 차종별 사고량 분석]
 
 #### [6-1. 연도별 차종별 사고 건수]
-- 개인형이동수단(PM)은 다른 교통수단에 비해 2017년 이후 매우 가파른 증가세를 보인 반면, 대부분의 다른 교통수단은 일정하거나 감소 추세를 보인다
-- 이륜차와 자전거 등은 사고 건수의 변동이 있었지만, 최근 몇 년간 비교적 안정적인 추세를 보인다.
-- 승용차, 화물차, 건설기계 등 일반적으로 도로에서 많이 사용하는 교통수단들은 사고 건수의 변화가 크지 않다.
 <img width="824" alt="image" src="https://github.com/user-attachments/assets/3337c6ab-d1e3-4b1b-a29c-bfdd212471ea">
 
 <br/></br>
 
 #### [6-2. 연도별 차종별 사망자 건수]
-- 개인형이동수단(PM)은 다른 교통수단과 비교했을 때 최근 몇 년 동안 사망자 수가 빠르게 증가하고 있다. 
-- 특히, 다른 교통수단들은 대부분 사망자 수가 감소하는 추세를 보이고 있는 반면, 개인형이동수단만 유일하게 상승세를 보인다.
 <img width="822" alt="image" src="https://github.com/user-attachments/assets/6ba3c1ad-a364-48ed-9805-2f7929b7f296">
 
 <br/></br>
 
 #### [6-3. 연도별 차종별 중상자 건수]
-- 개인형이동수단(PM)은 다른 교통수단과 비교했을 때 최근 몇 년 동안 중상자 수가 빠르게 증가하고 있다.
-- 대부분의 이동수단의 경우 중상자 건수가 줄어드는 추세를 보인다.
-- 원동기장치자전거의 경우 2016, 2017년에 급격하게 중상자 수가 줄었고 이후에는 일정한 상태를 유지하고 있다.
 <img width="826" alt="image" src="https://github.com/user-attachments/assets/5072f208-922f-43b3-9d25-8a5214a34108">
 
 
 <br/></br>
 
 #### [6-4. 연도별 차종별 경상자 건수]
-- 개인형이동수단(PM)과 이륜차의 경우 다른 교통수단과 비교했을 때 최근 몇 년 동안 경상자 수가 증가하고 있다.
-- 경상자수의 경우 대부분의 교통수단이 유지하고 있다.
-- 원동기장치자전거의 경우 2017년에 급격하게 줄어들고 이후에는 일정한 상태를 유지하고 있다.
 <img width="823" alt="image" src="https://github.com/user-attachments/assets/b65a6770-0b7c-44a4-b0a6-5c95382c66f7">
 
 
 <br/></br>
 
 #### [6-5. 연도별 차종별 부상신고자 건수]
-- 개인형이동수단(PM)의 경우 다른 교통수단과 비교했을 때 최근 몇 년 동안 부상신고자수가 빠르게 증가하고 있다.
-- 대부분의 차종은 부상신고자 건수에 있어 상승과 하락을 반복하는 불규칙한 현상을 보이고 있다.
-- 원동기장치자전거, 사륜오토바이의 경우 부상신고자 건수에 있어 하락 추세를 보이고 있다.
 <img width="822" alt="image" src="https://github.com/user-attachments/assets/02d41e7f-f788-4995-a238-6520168d8d63">
 
 
@@ -288,26 +260,26 @@ accident['계절'] = accident['발생월'].apply(get_season)
 ### [Case 7. 월별 차종별 사고량 분석]
 
 #### [7-1. 월별 사고 건수]
-- 모든 차종에 있어 2월에 가장 낮고 10월에 가장 높은 사고 건수를 보인다.
-- 대부분의 차종의 경우 월별 사고 건수에 있어 일정한 정도를 유지한다.
-- 개방형 차량의 경우 겨울에 밀폐형 차량에 비해 눈에 띄게 낮은 사고 건수를 보인다.
 <img width="823" alt="image" src="https://github.com/user-attachments/assets/9a9ef708-e68c-4540-825e-9d4483a7e172">
 
 <br/></br>
 
 #### [7-2. 월별 사망자 건수]
-- 개인형이동수단(PM)의 경우 겨울철에 낮은 사망자 건수를 보이고 7,10월에 높은 사망자 건수를 보인다.
-- 개방형 차량의 경우 겨울철에 낮은 사망건수를 보이는 반면, 밀폐형 차종의 경우 계절에 상관없이 일정한 추세를 보인다.
 <img width="822" alt="image" src="https://github.com/user-attachments/assets/422296bb-3e30-4885-aa0f-df5682af8d78">
 
 <br/></br>
 
-#### [7-3. 월별 중상자 / 경상자 / 부상신고자 건수]
-- 개인형이동수단(PM)은 5월부터 10월 사이에 중상자, 경상자, 부상신고자 수가 모두 증가하는 경향을 보입니다. 이는 봄과 여름철에 개인형 이동수단의 사용량이 증가하면서 사고와 부상자가 증가하는 것으로 해석할 수 있습니다.
-- 개방형 차량(개인형이동수단, 이륜차, 자전거 등)은 주로 따뜻한 계절에 사고와 부상자가 증가하는 경향이 있는 반면, 밀폐형 차량(승용차, 화물차 등)은 계절에 따른 큰 변화 없이 일정한 수준을 유지하는 특징이 있습니다.
-- 농기계 및 사륜오토바이(ATV)의 경우도 봄과 여름철에 부상 및 사고 건수가 높게 나타나며, 이는 농작업 및 레저 활동과 관련이 있을 것으로 보입니다.
+#### [7-3. 월별 중상자 건수]
 <img width="824" alt="image" src="https://github.com/user-attachments/assets/6e37ed3d-9880-4906-a0ca-4985e7e51c6a">
+
+<br/></br>
+
+#### [7-4. 월별 경상자 건수]
 <img width="821" alt="image" src="https://github.com/user-attachments/assets/515690fd-879f-49a5-89ff-024bf5f10596">
+
+<br/></br>
+
+#### [7-5. 월별 부상신고자 건수]
 <img width="826" alt="image" src="https://github.com/user-attachments/assets/c3928287-2780-4c48-97b4-73ceacab1697">
 
 
@@ -318,14 +290,11 @@ accident['계절'] = accident['발생월'].apply(get_season)
 ### [Case 8. 계절별 차종별 사고 건수]
 
 #### [8-1. 계절별 차종별 사고 건수]
-- 밀폐형 차량의 경우 계절에 따른 사고 건수에 있어 차이가 많이 나지는 않는다.
-- 
 <img width="823" alt="image" src="https://github.com/user-attachments/assets/212336e8-b0fc-475b-b42d-4dc1bfa45fb1">
 
 <br/></br>
 
 #### [8-2. 계절별 차종별 사망자 건수]
-- 
 <img width="821" alt="image" src="https://github.com/user-attachments/assets/0e05ff95-1eff-4484-a504-a2b63e7e1653">
 
 <br/></br>
