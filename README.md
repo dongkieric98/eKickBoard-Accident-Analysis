@@ -275,12 +275,53 @@ accident['계절'] = accident['발생월'].apply(get_season)
 <br/></br>
 
 #### [6-5. 연도별 차종별 부상신고자 건수]
-- 
+- 개인형이동수단(PM)의 경우 다른 교통수단과 비교했을 때 최근 몇 년 동안 부상신고자수가 빠르게 증가하고 있다.
+- 대부분의 차종은 부상신고자 건수에 있어 상승과 하락을 반복하는 불규칙한 현상을 보이고 있다.
+- 원동기장치자전거, 사륜오토바이의 경우 부상신고자 건수에 있어 하락 추세를 보이고 있다.
 <img width="822" alt="image" src="https://github.com/user-attachments/assets/02d41e7f-f788-4995-a238-6520168d8d63">
 
 
 <br/></br>
 <br/></br>
+
+
+### [Case 7. 월별 차종별 사고량 분석]
+
+#### [7-1. 월별 사고 건수]
+- 모든 차종에 있어 2월에 가장 낮고 10월에 가장 높은 사고 건수를 보인다.
+- 대부분의 차종의 경우 월별 사고 건수에 있어 일정한 정도를 유지한다.
+- 개방형 차량의 경우 겨울에 밀폐형 차량에 비해 눈에 띄게 낮은 사고 건수를 보인다.
+<img width="823" alt="image" src="https://github.com/user-attachments/assets/9a9ef708-e68c-4540-825e-9d4483a7e172">
+
+<br/></br>
+
+#### [7-2. 월별 사망자 건수]
+- 개인형이동수단(PM)의 경우 겨울철에 낮은 사망자 건수를 보이고 7,10월에 높은 사망자 건수를 보인다.
+- 개방형 차량의 경우 겨울철에 낮은 사망건수를 보이는 반면, 밀폐형 차종의 경우 계절에 상관없이 일정한 추세를 보인다.
+<img width="822" alt="image" src="https://github.com/user-attachments/assets/422296bb-3e30-4885-aa0f-df5682af8d78">
+
+<br/></br>
+
+#### [7-3. 월별 중상자 건수]
+- 
+<img width="824" alt="image" src="https://github.com/user-attachments/assets/6e37ed3d-9880-4906-a0ca-4985e7e51c6a">
+
+<br/></br>
+
+#### [7-4. 월별 경상자 건수]
+<img width="821" alt="image" src="https://github.com/user-attachments/assets/515690fd-879f-49a5-89ff-024bf5f10596">
+
+<br/></br>
+
+#### [7-5. 월별 부상신고 건수]
+<img width="826" alt="image" src="https://github.com/user-attachments/assets/c3928287-2780-4c48-97b4-73ceacab1697">
+
+<br/></br>
+
+
+
+
+
 
 
 ## 9. 결과 
