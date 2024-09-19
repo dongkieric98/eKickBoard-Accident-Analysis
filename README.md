@@ -318,24 +318,30 @@ accident['계절'] = accident['발생월'].apply(get_season)
 ### [Case 8. 계절별 차종별 사고 건수]
 
 #### [8-1. 계절별 차종별 사고 건수]
-- 개방형 차량의 경우 겨울철과 다른 계절
+- 밀폐형 차량의 경우 계절에 따른 사고 건수에 있어 차이가 많이 나지는 않는다.
+- 
 <img width="823" alt="image" src="https://github.com/user-attachments/assets/212336e8-b0fc-475b-b42d-4dc1bfa45fb1">
 
 <br/></br>
 
-#### [8-1. 계절별 차종별 사고 건수]
+#### [8-2. 계절별 차종별 사망자 건수]
+- 
+<img width="821" alt="image" src="https://github.com/user-attachments/assets/0e05ff95-1eff-4484-a504-a2b63e7e1653">
 
 <br/></br>
 
-#### [8-1. 계절별 차종별 사고 건수]
+#### [8-3. 계절별 차종별 중상자 건수]
+<img width="821" alt="image" src="https://github.com/user-attachments/assets/f790b5f4-f1e3-4acd-b5a5-07dfcc7f04d4">
 
 <br/></br>
 
-#### [8-1. 계절별 차종별 사고 건수]
+#### [8-4. 계절별 차종별 사고 건수]
+<img width="821" alt="image" src="https://github.com/user-attachments/assets/2dc3e3d0-a2dd-4337-8b1f-feb201cfe253">
 
 <br/></br>
 
-#### [8-1. 계절별 차종별 사고 건수]
+#### [8-5. 계절별 차종별 사고 건수]
+<img width="821" alt="image" src="https://github.com/user-attachments/assets/68081d70-e3c8-48d8-9fd8-fe08ffb71382">
 
 <br/></br>
 
