@@ -167,7 +167,8 @@ accident['계절'] = accident['발생월'].apply(get_season)
 ## 7. 데이터 분석 방법론
 #### [연구질문 1,2,3에 대한 분석 방법론]
 - 시간 데이터, 범주형 데이터, 수치형 데이터로 나올 수 있는 모든 경우의 수를 시각화하여 파악
-![image](https://github.com/user-attachments/assets/d630a8c5-98ad-4872-b6c2-5cc2686ec356)
+<img width="1152" alt="image" src="https://github.com/user-attachments/assets/ee738d57-7f54-48c9-bb3c-481b644c38d6">
+
 
 <br/></br>
 
