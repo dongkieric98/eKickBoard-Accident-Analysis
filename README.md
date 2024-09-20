@@ -317,6 +317,36 @@ accident['계절'] = accident['발생월'].apply(get_season)
 <br/></br>
 <br/></br>
 
+### [Case 9. 2022, 2023년도 사고 건수]
+#### [9-1-1. 2022년 가해자 차종별 사고 건수]
+![newplot (1)](https://github.com/user-attachments/assets/06bb2d35-07e5-4915-9a49-5bc85b2b45f8)
+
+<br/></br>
+
+#### [9-1-2. 2022년 가해자 차종별 사고 건수(승용차 제외)]
+![newplot (2)](https://github.com/user-attachments/assets/8a36e9f9-af53-437e-93dd-cb70d149ee43)
+
+<br/></br>
+
+#### [9-1-3. 2022년 가해자 차종별 사고 건수 분포]
+![newplot (3)](https://github.com/user-attachments/assets/383c1aec-40b3-443d-9024-c2669a13ad54)
+
+<br/></br>
+
+#### [9-2-1. 2023년 가해자 차종별 사고 건수]
+![newplot](https://github.com/user-attachments/assets/212217c7-b5d7-4f12-a3dd-9a2612b71979)
+
+<br/></br>
+
+#### [9-2-2. 2023년 가해자 차종별 사고 건수(승용차 제외)]
+![newplot (1)](https://github.com/user-attachments/assets/f5f2aa3b-893c-400d-b3c6-3deed3e08c8b)
+
+<br/></br>
+
+#### [9-2-3. 2023년 가해자 차종별 사고 건수 분포]
+![newplot (2)](https://github.com/user-attachments/assets/1c9b3c20-d957-4011-9510-361006f3455a)
+
+<br/></br>
 
 ## 9. 시간별 연령대별 킥보드 사고 유형 시각화
 
@@ -377,7 +407,7 @@ accident['계절'] = accident['발생월'].apply(get_season)
 <br/></br>
 
 ### [연구질문5 결과 : 만약에 전동 킥보드 사고가 많지 않다면 사람들은 왜 전동 킥보드 사고가 굉장히 빈번하고 자주 일어난다고 생각할까?]
-- [Graph 1-1, 6-1 참고] 전동킥보드 사고가 급증한 2022, 2023년에도 사고 건수 자체는 다른 차종에 비해 많지 않다. 2022년에는 12개의 차종 중 7번째로 높은 사고 건수가 발생했고, 2023년도에도 마찬가지이다. 이는 전체 교통사고 건수에서 약 1.2%의 사고를 차지한다. 
+- [Graph 9-1,2,3, 10-1,2,3 참고] 전동킥보드 사고가 급증한 2022, 2023년에도 사고 건수 자체는 다른 차종에 비해 많지 않다. 2022년에는 12개의 차종 중 7번째로 높은 사고 건수가 발생했고, 2023년도에도 마찬가지이다. 이는 전체 교통사고 건수에서 약 1.2%의 사고를 차지한다. 
 
 
 <br/></br>
