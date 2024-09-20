@@ -174,199 +174,15 @@ accident['계절'] = accident['발생월'].apply(get_season)
 <br/></br>
 
 
-## 8. 차종별 사고 유형 데이터 시각화
-
-### [Case 1. 차종별 사고 유형별 건수 분석]
-
-#### [1-1. 차종별 사고 유형별 건수 분석 (승용차 포함)]
-<img width="738" alt="image" src="https://github.com/user-attachments/assets/7d79aea6-6133-46d0-bf35-7857914de0f9">
-
-<br/></br>
-
-#### [1-2. 차종별 사고유형별 비율]
-<img width="740" alt="image" src="https://github.com/user-attachments/assets/8acc1e84-4dee-4a68-a8ab-331231db5480">
+## 8. 차종별 사고 유형 데이터 시각화 & 시간별 연령대별 킥보드 사고 유형 시각화
+- visualization 파일 참고
 
 
 <br/></br>
 <br/></br>
 
 
-### [Case 2. 연도별 사고량 분석]
-<img width="740" alt="image" src="https://github.com/user-attachments/assets/5f524b9f-5c68-4afa-88ad-c75ec71b416c">
-
-
-<br/></br>
-<br/></br>
-
-
-### [Case 3. 월별 사고량 분석]
-<img width="738" alt="image" src="https://github.com/user-attachments/assets/d26c6a9f-a4a7-4406-ab50-1835eda51e13">
-
-
-<br/></br>
-<br/></br>
-
-
-### [Case 4. 연월별 사고량 분석]
-<img width="857" alt="image" src="https://github.com/user-attachments/assets/d1eae2ae-5201-45a9-a347-8a428f47553e">
-
-
-<br/></br>
-<br/></br>
-
-
-### [Case 5. 계절별 사고량 분석]
-<img width="825" alt="image" src="https://github.com/user-attachments/assets/0f49d545-d7ed-4379-811b-047bcff88939">
-
-
-<br/></br>
-<br/></br>
-
-
-### [Case 6. 연도별 차종별 사고량 분석]
-
-#### [6-1. 연도별 차종별 사고 건수]
-<img width="824" alt="image" src="https://github.com/user-attachments/assets/3337c6ab-d1e3-4b1b-a29c-bfdd212471ea">
-
-<br/></br>
-
-#### [6-2. 연도별 차종별 사망자 건수]
-<img width="822" alt="image" src="https://github.com/user-attachments/assets/6ba3c1ad-a364-48ed-9805-2f7929b7f296">
-
-<br/></br>
-
-#### [6-3. 연도별 차종별 중상자 건수]
-<img width="826" alt="image" src="https://github.com/user-attachments/assets/5072f208-922f-43b3-9d25-8a5214a34108">
-
-
-<br/></br>
-
-#### [6-4. 연도별 차종별 경상자 건수]
-<img width="823" alt="image" src="https://github.com/user-attachments/assets/b65a6770-0b7c-44a4-b0a6-5c95382c66f7">
-
-
-<br/></br>
-
-#### [6-5. 연도별 차종별 부상신고자 건수]
-<img width="822" alt="image" src="https://github.com/user-attachments/assets/02d41e7f-f788-4995-a238-6520168d8d63">
-
-
-<br/></br>
-<br/></br>
-
-
-### [Case 7. 월별 차종별 사고량 분석]
-
-#### [7-1. 월별 사고 건수]
-<img width="823" alt="image" src="https://github.com/user-attachments/assets/9a9ef708-e68c-4540-825e-9d4483a7e172">
-
-<br/></br>
-
-#### [7-2. 월별 사망자 건수]
-<img width="822" alt="image" src="https://github.com/user-attachments/assets/422296bb-3e30-4885-aa0f-df5682af8d78">
-
-<br/></br>
-
-#### [7-3. 월별 중상자 건수]
-<img width="824" alt="image" src="https://github.com/user-attachments/assets/6e37ed3d-9880-4906-a0ca-4985e7e51c6a">
-
-<br/></br>
-
-#### [7-4. 월별 경상자 건수]
-<img width="821" alt="image" src="https://github.com/user-attachments/assets/515690fd-879f-49a5-89ff-024bf5f10596">
-
-<br/></br>
-
-#### [7-5. 월별 부상신고자 건수]
-<img width="826" alt="image" src="https://github.com/user-attachments/assets/c3928287-2780-4c48-97b4-73ceacab1697">
-
-
-<br/></br>
-<br/></br>
-
-
-### [Case 8. 계절별 차종별 사고 건수]
-
-#### [8-1. 계절별 차종별 사고 건수]
-<img width="823" alt="image" src="https://github.com/user-attachments/assets/212336e8-b0fc-475b-b42d-4dc1bfa45fb1">
-
-<br/></br>
-
-#### [8-2. 계절별 차종별 사망자 건수]
-<img width="821" alt="image" src="https://github.com/user-attachments/assets/0e05ff95-1eff-4484-a504-a2b63e7e1653">
-
-<br/></br>
-
-#### [8-3. 계절별 차종별 중상자 건수]
-<img width="821" alt="image" src="https://github.com/user-attachments/assets/f790b5f4-f1e3-4acd-b5a5-07dfcc7f04d4">
-
-<br/></br>
-
-#### [8-4. 계절별 차종별 경상자 건수]
-<img width="821" alt="image" src="https://github.com/user-attachments/assets/2dc3e3d0-a2dd-4337-8b1f-feb201cfe253">
-
-<br/></br>
-
-#### [8-5. 계절별 차종별 부상신고자 건수]
-<img width="821" alt="image" src="https://github.com/user-attachments/assets/68081d70-e3c8-48d8-9fd8-fe08ffb71382">
-
-<br/></br>
-<br/></br>
-
-### [Case 9. 2022, 2023년도 사고 건수]
-#### [9-1-1. 2022년 가해자 차종별 사고 건수]
-![newplot (1)](https://github.com/user-attachments/assets/06bb2d35-07e5-4915-9a49-5bc85b2b45f8)
-
-<br/></br>
-
-#### [9-1-2. 2022년 가해자 차종별 사고 건수(승용차 제외)]
-![newplot (2)](https://github.com/user-attachments/assets/8a36e9f9-af53-437e-93dd-cb70d149ee43)
-
-<br/></br>
-
-#### [9-1-3. 2022년 가해자 차종별 사고 건수 분포]
-![newplot (3)](https://github.com/user-attachments/assets/383c1aec-40b3-443d-9024-c2669a13ad54)
-
-<br/></br>
-
-#### [9-2-1. 2023년 가해자 차종별 사고 건수]
-![newplot](https://github.com/user-attachments/assets/212217c7-b5d7-4f12-a3dd-9a2612b71979)
-
-<br/></br>
-
-#### [9-2-2. 2023년 가해자 차종별 사고 건수(승용차 제외)]
-![newplot (1)](https://github.com/user-attachments/assets/f5f2aa3b-893c-400d-b3c6-3deed3e08c8b)
-
-<br/></br>
-
-#### [9-2-3. 2023년 가해자 차종별 사고 건수 분포]
-![newplot (2)](https://github.com/user-attachments/assets/1c9b3c20-d957-4011-9510-361006f3455a)
-
-<br/></br>
-
-## 9. 시간별 연령대별 킥보드 사고 유형 시각화
-
-<br/></br>
-
-#### [1. 연령대별 연도별 사고 건수]
-![newplot](https://github.com/user-attachments/assets/ce7a4f3f-20cc-4a8b-8e50-4c218d97f2a3)
-
-<br/></br>
-
-#### [2. 연령대별 연도별 사망자수]
-![newplot (1)](https://github.com/user-attachments/assets/722eb781-1ed5-45c6-8140-b082fd783250)
-
-<br/></br>
-
-#### [3. 연령대별 연도별 부상자수]
-![newplot (2)](https://github.com/user-attachments/assets/2066daab-0bed-4757-8dd5-d6a578c495ed)
-
-
-<br/></br>
-<br/></br>
-
-
-## 10. 결과 
+## 9. 결과 
 ### [연구질문1 결과 : 전동 킥보드 사고는 다른 교통수단에 비해 얼마나 빈번하게 발생하는가?] 
 - __[Graph 1-1 참고]__ 전동 킥보드 사고는 다른 교통수단에 비해 전체 건수는 아직까지 적은 편에 속한다.
 - __[Graph 6-1 참고]__ 그러나 사고 발생 건수의 증가 추세는 다른 교통수단에 비해 상당히 빠르게 나타나고 있다. 특히 2020년 이후 전동 킥보드 이용자가 급격히 늘어나면서 사고 건수도 가파르게 증가하고 있는 것으로 확인된다.
@@ -419,7 +235,7 @@ accident['계절'] = accident['발생월'].apply(get_season)
 <br/></br>
 
 
-## 11. 논의 및 결론
+## 10. 논의 및 결론
 이번 프로젝트에서는 전동 킥보드 사고에 대한 객관적인 데이터를 바탕으로 사고의 발생 빈도와 심각성을 분석하여 여러 연구 질문에 대한 답을 도출했습니다. 이를 통해 전동 킥보드 사고에 대한 사회적 인식과 실제 데이터를 비교할 수 있었고, 전동 킥보드 사고를 줄이기 위한 방안에 대해서도 논의했습니다.
 
 #### __[연구질문1 결과 요약]__
