@@ -63,7 +63,7 @@
     - 차종별 교통사고 유형 건수.csv
 
 - data_preprocessing.ipynb : 전처리 코드
-
+- visualization_code.ipynb : 시각화 코드
 
 <br/></br>
 <br/></br>
@@ -167,12 +167,8 @@ accident['계절'] = accident['발생월'].apply(get_season)
 ## 7. 데이터 분석 방법론
 #### [연구질문 1,2,3에 대한 분석 방법론]
 - 시간 데이터, 범주형 데이터, 수치형 데이터로 나올 수 있는 모든 경우의 수를 시각화하여 파악
-<img width="831" alt="image" src="https://github.com/user-attachments/assets/01e393ed-e845-46c2-945f-4cb7483082f7">
-
-<br/></br>
-
-#### [연구질문 3, 4,5에 대한 분석 방법론]
 - 시간별 연령대별 킥보드 사고 유형 데이터를 시각화하여 현황 파악
+<img width="831" alt="image" src="https://github.com/user-attachments/assets/01e393ed-e845-46c2-945f-4cb7483082f7">
 
 <br/></br>
 <br/></br>
