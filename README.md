@@ -348,17 +348,17 @@ accident['계절'] = accident['발생월'].apply(get_season)
 
 <br/></br>
 
-#### [9-1. 연령대별 연도별 사고 건수]
+#### [1. 연령대별 연도별 사고 건수]
 ![newplot](https://github.com/user-attachments/assets/ce7a4f3f-20cc-4a8b-8e50-4c218d97f2a3)
 
 <br/></br>
 
-#### [9-2. 연령대별 연도별 사망자수]
+#### [2. 연령대별 연도별 사망자수]
 ![newplot (1)](https://github.com/user-attachments/assets/722eb781-1ed5-45c6-8140-b082fd783250)
 
 <br/></br>
 
-#### [9-3. 연령대별 연도별 부상자수]
+#### [3. 연령대별 연도별 부상자수]
 ![newplot (2)](https://github.com/user-attachments/assets/2066daab-0bed-4757-8dd5-d6a578c495ed)
 
 
@@ -419,7 +419,7 @@ accident['계절'] = accident['발생월'].apply(get_season)
 <br/></br>
 
 
-## 10. 논의 및 결론
+## 11. 논의 및 결론
 이번 프로젝트에서는 전동 킥보드 사고에 대한 객관적인 데이터를 바탕으로 사고의 발생 빈도와 심각성을 분석하여 여러 연구 질문에 대한 답을 도출했습니다. 이를 통해 전동 킥보드 사고에 대한 사회적 인식과 실제 데이터를 비교할 수 있었고, 전동 킥보드 사고를 줄이기 위한 방안에 대해서도 논의했습니다.
 
 #### __[연구질문1 결과 요약]__
