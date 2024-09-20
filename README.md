@@ -56,11 +56,12 @@
     - 차종별 월별 교통사고(2021).csv
     - 차종별 월별 교통사고(2022).csv
     - 차종별 월별 교통사고(2023).csv
-    
+  
   - preprocessed data/ : 전처리 후 데이터
     - 연령대별 킥보드 사고건수.csv
     - 차종별 교통사고 유형 건수.csv
 
+- Visualization : 데이터 시각화 이미지
 - data_preprocessing.ipynb : 전처리 코드
 - visualization_code.ipynb : 시각화 코드
 
